@@ -172,19 +172,47 @@ body input:required:valid, body textarea:required:valid
 .view-gallary
 	display: flex
 	justify-content: center
-.view-gallary p
+//Модальное окно и его параметры
+.btn-secondary
+	padding: 10px 20px
+	background-color: #f14d44
+	color: #fff
+	font-weight: bold
+	box-shadow: 3px 2px 1px rgba(0,0,0,0.5)
+	border: none
+.btn-secondary:hover
+	transition: all .8s
+	background-color: #f14d44
+	color: #fff
+	cursor: pointer
+	transform: scale(1.1)
+.view-gallary .btn-primary
 	padding: 10px 20px
 	background-color: #f14d44
 	color: #fff
 	margin: 0 0 30px 0
 	font-weight: bold
 	box-shadow: 3px 2px 1px rgba(0,0,0,0.5)
-.view-gallary p:hover
+	border: none
+.view-gallary .btn-primary:hover
 	transition: all .8s
 	background-color: #fff
 	color: #f14d44
 	cursor: pointer
 	transform: scale(1.1)
+.modal-body .modal-name-content p
+	text-align: center
+	font-size: 18px
+	color: orange
+	font-weight: bold
+.modal-body .modal-img-content
+	text-align: center
+	margin-bottom: 20px
+.modal-body .modal-img-content img
+	width: 100%
+	height: 100%
+.modal-body	.modal-text-content p
+	text-align: justify
 
 //Продукты
 .product
